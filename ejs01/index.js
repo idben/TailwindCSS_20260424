@@ -13,6 +13,12 @@ app.get("/", (req, res)=>{
   res.send("你好")
 });
 
+app.get("/test", (req, res)=>{
+  res.render("index", {
+    title: "樣版測試",
+    name: "Ben Chen"
+  });
+});
 
 app.listen(port, ()=>{
   console.log("伺服器已啟動 http://localhost:3000");
