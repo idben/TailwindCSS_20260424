@@ -5,6 +5,8 @@ const app = express();
 const port = 3000;
 
 app.use(express.static("public"));
+app.set("view engine", "ejs");
+app.set("views", path.join(import.meta.dirname, "views"))
 
 
 app.get("/", (req, res)=>{
