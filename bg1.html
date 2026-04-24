@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    :root{
+      --alpha: 35%;
+    }
+  </style>
   <title>background</title>
 </head>
 <body class="p-4">
@@ -22,8 +27,19 @@
   </div>
 
   <div class="flex gap-[2px] p-[2px] bg-amber-200/0 mb-[10px]">
+    <div class="w-[30px] h-[30px] bg-rose-500/0"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/10"></div>
     <div class="w-[30px] h-[30px] bg-rose-500/20"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/30"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/(--alpha)"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/40"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/50"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/60"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/70"></div>
     <div class="w-[30px] h-[30px] bg-rose-500/80"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/[85%]"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/90"></div>
+    <div class="w-[30px] h-[30px] bg-rose-500/100"></div>
   </div>
 </body>
 </html>
