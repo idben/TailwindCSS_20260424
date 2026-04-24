@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (SENSITIVE)
+.env
+.env.local
+.env.development.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: Build directories (e.g., if using TypeScript)
+dist/
+build/
