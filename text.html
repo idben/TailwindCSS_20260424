@@ -19,8 +19,11 @@
   <p class="text-blue-200 text-[26px]">藍色文字 (blue-200)</p>
   <p class="text-blue-700 text-[length:var(--value-1)]">藍色文字 (blue-700)</p>
   <p class="text-slate-200 text-(length:--value-2)">淺灰文字 (slate-200)</p>
+  <!-- text-[] 要加 color: 才知道控制的是顏色 -->
   <p class="text-slate-900 !text-[color:#ec10ec]">深灰文字 (slate-900)</p>
+  <!-- 正式寫法 -->
   <p class="text-slate-900 !text-[color:var(--value-3)]">深灰文字 (slate-900)</p>
+  <!-- 簡化寫法 -->
   <p class="text-slate-900 !text-(color:--value-3)">深灰文字 (slate-900)</p>
 
 </body>
